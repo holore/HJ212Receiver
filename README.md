@@ -1,4 +1,5 @@
 # GB212ReceiverApp-基于Qt5.14.2的HJ212 TCP服务端接收解析入库程序
+   特别感谢 雪影迷踪的开发
    之前写过一篇关于[环保 HJ212协议解析](https://ccf19881030.blog.csdn.net/article/details/108621406)的博文，有不少做环保行业的人咨询我关于HJ212-2017协议怎么解析，由于我主要是做C++开发的，之前采用C++ Boost asio库编写了一个TCP接收服务端，并解析HJ212-2017协议数据，上传到我的GitHub上面，仓库地址为：[https://github.com/ccf19881030/HJ212Receiver](https://github.com/ccf19881030/HJ212Receiver)，已经在Windows10系统下使用VS2017进行测试过，并且在CentOS8系统下使用Cmake进行编译测试。有需要的话可以自行下载：
 ```
 git clone https://github.com/ccf19881030/HJ212Receiver.git
